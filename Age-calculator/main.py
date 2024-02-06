@@ -5,6 +5,9 @@ def calcular_idade(data_nascimento):
     diferenca = data_atual - data_nascimento
     idade = diferenca.days // 365
     return idade
+    
+def hello_python():
+    print("Ola python")
 
 def citeste_data_nascimento():
     while True:
